@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    height: 100%;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.body-bg {
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    padding-top: 100px;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.table {
+    width: 60%;
+    margin: auto;
+    color: snow;
+}
+
